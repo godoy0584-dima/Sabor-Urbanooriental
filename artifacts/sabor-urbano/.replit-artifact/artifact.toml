@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Sabor Urbano"
+description = "Sitio web elegante y responsive para un restaurante de cocina fusión con menú interactivo, reservas, galería y contacto."
+version = "1.0.0"
+id = "artifacts/sabor-urbano"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23351
+
+[services.development]
+run = "pnpm --filter @workspace/sabor-urbano run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sabor-urbano", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sabor-urbano/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23351"
+BASE_PATH = "/"

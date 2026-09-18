@@ -1,0 +1,102 @@
+Crea un sitio web elegante y funcional para "SABOR URBANO" - un restaurante de cocina fusión que mezcla técnicas europeas con ingredientes locales, ubicado en el centro de la ciudad.
+
+DISEÑO Y ESTÉTICA:
+- Paleta de colores: negro mate (#1C1C1C), dorado suave (#D4AF37), blanco crema (#FFFEF7), verde olivo (#708238)
+- Tipografía: Serif elegante para títulos (estilo Playfair Display), sans-serif limpia para cuerpo de texto
+- Fotografía gastronómica de alta calidad (usa placeholders de Unsplash)
+- Animaciones suaves al hacer scroll con fade-in
+- Espaciado generoso entre secciones para respirar
+
+HERO SECTION:
+- Imagen fullscreen de plato signature del restaurante
+- Overlay oscuro sutil para legibilidad (40% opacity)
+- Título grande y elegante: "Donde la Tradición se Reinventa"
+- Subtítulo: "Cocina de autor con alma local"
+- Dos botones CTA: "Reserva tu mesa" (dorado) y "Ver menú" (outline blanco)
+- Indicador de scroll animado en la parte inferior
+
+SOBRE NOSOTROS:
+- Layout en dos columnas: texto izquierda, imagen derecha
+- Breve historia del restaurante (2-3 párrafos)
+- Misión y filosofía culinaria
+- Foto del chef ejecutivo con su nombre y trayectoria
+- Estadísticas destacadas con iconos: años de experiencia, premios, clientes satisfechos
+
+MENÚ INTERACTIVO:
+- Tabs o botones para categorías: Entradas / Platos Fuertes / Postres / Bebidas
+- Diseño de menú limpio con:
+  - Nombre del platillo en tipografía destacada
+  - Descripción breve de ingredientes
+  - Precio alineado a la derecha
+  - Iconos para alergenos o restricciones (vegetariano, picante, sin gluten)
+- Botón "Descargar menú completo" en PDF
+- Sección de "Platos del Chef" destacados con fotos
+
+GALERÍA:
+- Grid de fotos tipo masonry (3 columnas en desktop, 1 en mobile)
+- Combinación de fotos de: platillos, ambiente del restaurante, equipo, ingredientes
+- Lightbox al hacer clic en las imágenes para verlas en grande
+- Hover effect sutil: zoom ligero + overlay con ícono de expandir
+
+SISTEMA DE RESERVACIONES:
+- Formulario en tarjeta destacada con fondo blanco sobre imagen de fondo
+- Campos necesarios:
+  - Fecha (calendario desplegable)
+  - Hora (dropdown con horarios disponibles)
+  - Número de personas (selector numérico)
+  - Nombre completo
+  - Teléfono
+  - Email
+  - Comentarios especiales (opcional)
+- Botón "Confirmar reservación" con animación al hacer hover
+- Mensaje de confirmación después del submit con animación
+- Alternativa: botón de "Llamar para reservar" con número de teléfono
+
+RESEÑAS Y TESTIMONIALES:
+- Carousel automático de 3-4 testimoniales
+- Cada testimonial con:
+  - Texto de la reseña (2-3 líneas)
+  - Nombre del cliente
+  - Calificación en estrellas (5 estrellas)
+  - Foto del cliente (opcional, usar avatares si no)
+- Integración visual con Google Reviews o TripAdvisor
+- Botón "Déjanos tu reseña"
+
+UBICACIÓN Y CONTACTO:
+- Mapa interactivo de Google Maps embebido
+- Información de contacto organizada:
+  - Dirección física con ícono
+  - Teléfono clickeable para llamar desde móvil
+  - Email con ícono
+  - Horarios de servicio (almuerzo y cena)
+- Indicaciones de estacionamiento cercano
+- Links a redes sociales con iconos: Instagram, Facebook, WhatsApp
+
+FOOTER:
+- Fondo oscuro (#1C1C1C)
+- Tres columnas en desktop:
+  1. Logo y breve descripción
+  2. Links rápidos (Inicio, Menú, Reservaciones, Contacto)
+  3. Newsletter signup: "Recibe nuestras promociones especiales"
+- Redes sociales con íconos dorados
+- Barra inferior con copyright y "Diseñado por [tu nombre]"
+- Íconos de métodos de pago aceptados
+
+CARACTERÍSTICAS TÉCNICAS:
+- 100% responsive (mobile-first approach)
+- Smooth scroll entre secciones
+- Navbar fijo que se hace más pequeño al hacer scroll
+- Lazy loading en todas las imágenes
+- Animaciones de entrada en elementos (fade, slide up)
+- Formularios con validación básica
+- Hover states en todos los botones y links
+- Optimización de imágenes para carga rápida
+
+MOBILE CONSIDERATIONS:
+- Menú hamburguesa animado
+- Botones de CTA más grandes (fácil de tocar)
+- Galería en una sola columna
+- Formulario de reservación en ancho completo
+- Botones de llamada directa "click to call"
+
+El diseño debe sentirse sofisticado pero acogedor, como la experiencia de cenar en el restaurante. Prioriza la legibilidad, imágenes de calidad y facilidad de navegación.
